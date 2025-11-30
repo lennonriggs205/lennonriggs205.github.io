@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Lennon Riggs
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <div class="banner">
+                    <img class="header" src="header_bg.png"/>
+
+                    <h1>
+                        Lennon Riggs
+                    </h1>
+            </div>
+        </header>
+        <nav>
+            <table class="nav">
+                <tr>
+                    <td>
+                        <a href="index.html">
+                            <button class="home">Home</button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="browsers/angel_browser.html">
+                            <button class="beta">Beta Reading</button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="browsers/shorts.html">
+                            <button class="shorts">Short Stories</button>
+                        </a>
+                    </td>
+                    <td>
+                        <button class="series">Browse by Series:</button>
+                        <ul>
+                            <li>
+                                <a href="browsers/angel_browser.html">
+                                    <button class="series_theodyn">Theodyn</button>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="browsers/fimbulwinter_browser.html">
+                                    <button class="series_fimbulwinter">Fimbulwinter</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <a href="about.html">
+                            <button class="about">About Me</button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <main>
+            <table>
+                <tr class="buffer">
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="tagline">
+                "A thousand words paints a picture."
+                    </p>
+                    </td>
+                </tr>
+                <tr class="buffer">
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr class="color_buffer">
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr class="buffer">
+                    <td>
+                        
+                    </td>
+                </tr>
+            </table>
+            <div>
+                <a id="banner_link" href="browsers/fimbulwinter_browser.html">
+                    <input id="rotating_banner" type="image" src="Images/fimbulwinter_banner.png"/>  
+                </a>
+            </div>
+            <div id="button_padding">
+                <button class="banner_button" id="banner_button_1" onclick="banner_button_1()">
+                </button>
+                <button class="banner_button" id="banner_button_2" onclick="banner_button_2()">
+                </button>
+                <button class="banner_button" id="banner_button_3" onclick="banner_button_3()">
+                </button>
+            </div>
+            <table>
+                <tr class="buffer">
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr class="color_buffer">
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr class="buffer">
+                    <td>
+                        
+                    </td>
+                </tr>
+            </table>
+            <table id="rotating_images">
+                <tr>
+                    <th class="gallery_header" colspan="5">
+                        Newest
+                    </th>
+                </tr>
+                <tr>
+                    <td class="arrow">
+                        <input onclick="image_cycle_left()" type="image" src="Images/left_arrow.png"/>  
+                    </td>
+                    <td class="side_image">
+                        <a href="pdf_viewers/angel_20.html">
+                            <input id="left_image" type="image" src="Images/angel_20.png"/>  
+                        </a>
+                    </td>
+                    <td id="main_image">
+                        <a href="pdf_viewers/hel_1.html">
+                            <input id="middle_image" type="image" src="Images/hel_1.png"/>  
+                        </a>
+                    </td>
+                    <td class="side_image">
+                        <a href="pdf_viewers/world_sculptor.html">
+                            <input id="right_image" type="image" src="Images/world_sculptor.png"/>  
+                        </a>
+                    </td>
+                    <td class="arrow">
+                        <input onclick="image_cycle_right()" type="image" src="Images/right_arrow.png"/>  
+                    </td>
+                </tr>
+                <tr>
+                    <th id="caption" colspan="5">
+                        A valkyrie is forced to shepherd the man who killed her brother to Valhalla, but if she has her way, he won’t stay there for long.
+                    </th>
+                </tr>
+            </table>
+            <table>
+                <tr class="buffer">
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr class="color_buffer">
+                    <td>
+                        
+                    </td>
+                </tr>
+                <tr class="buffer">
+                    <td>
+                        
+                    </td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <table class="footer">
+                <tr>
+                    <td>
+                        <p class="label">
+                            Instagram
+                        </p>
+                        <a href="https://www.instagram.com/lennon_riggs_writes/">
+                            <input type="image" src="Images/instagram_logo.png" class="footer_img"/>
+                        </a>
+                    </td>
+                    <td id="copyright">
+                        © 2025 Lennon Riggs
+                    </td>
+                    <td>
+                        <p class="label">
+                            Kofi
+                        </p>
+                        <a href="https://ko-fi.com/lennon_riggs">
+                          <input type="image" src="Images/kofi.png" class="footer_img"/>  
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+        <script src="new_gallery.js"></script>
+        <script src="rotating_banner.js"></script>
+    </body>
+</html>
