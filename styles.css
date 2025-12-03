@@ -77,6 +77,10 @@ footer{
   visibility:visible;
   cursor:pointer;
 }
+.series:active~ul{
+  visibility:visible;
+  cursor:pointer;
+}
 ul:hover{
     visibility:visible;
     cursor:pointer;
