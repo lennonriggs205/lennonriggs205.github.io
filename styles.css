@@ -74,23 +74,9 @@ footer{
   background-color:#577480;
 }
 .series:focus~ul{
-  visibility:visible;
   cursor:pointer;
-}
-.series:hover~ul{
-  visibility:visible;
-  cursor:pointer;
-}
-.series:active~ul{
-  visibility:visible;
-  cursor:pointer;
-}
-ul:hover{
-    visibility:visible;
-    cursor:pointer;
 }
 li:hover{
-    visibility:visbile;
     background-color:#667b85;
     cursor:pointer;
 }
@@ -102,7 +88,6 @@ li:hover{
     border:none;
     background-color:transparent;
     color:#f1f1f1;
-    -webkit-text-stroke: .04em #202020;
     padding:0.5vw;
 }
 ul{
@@ -110,7 +95,6 @@ ul{
     font-size:90%;
     font-weight:550;
     color:#f1f1f1;
-    -webkit-text-stroke: .025em #202020;
 }
 .nav button:hover{
     background-color:#667b85;
@@ -171,7 +155,6 @@ body{
     font-size:110%;
     font-weight:550;
     color:#f1f1f1;
-    -webkit-text-stroke: .04em #202020;
     font-style: normal;
 }
 .prev_next:hover{
@@ -278,8 +261,7 @@ html, body {
     font-family:Georgia, serif;
     font-size:110%;
     font-weight:550;
-    color:#f1f1f1;
-    -webkit-text-stroke: .04em #202020;
+    color:#383838;
     font-style: normal;
 }
 .spotify{
@@ -785,4 +767,3 @@ li{
     overflow-y:scroll;
   }
 }
-
