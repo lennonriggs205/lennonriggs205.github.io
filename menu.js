@@ -1,6 +1,7 @@
 function menu_visible() {
     const menu = document.getElementById("dropdown_menu");
-    if (menu.style.visibility === "hidden") {
+    const current_visibility = getComputedStyle(menu).visibility;
+    if (current_visibility === "hidden") {
             menu.style.visibility = "visible";
         } 
     else{
