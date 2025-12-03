@@ -77,6 +77,10 @@ footer{
   visibility:visible;
   cursor:pointer;
 }
+.series:hover~ul{
+  visibility:visible;
+  cursor:pointer;
+}
 .series:active~ul{
   visibility:visible;
   cursor:pointer;
@@ -781,3 +785,4 @@ li{
     overflow-y:scroll;
   }
 }
+
